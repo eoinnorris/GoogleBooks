@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A6B4D8EC-DA0D-4E30-A050-014F937330C9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F09D2F-7551-43E9-A56D-C6E75DF81C69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/SearchableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF3F776D-749B-46EE-9C93-9867EC3AF7F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/PDFViewUI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "makeNSView(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AC4E219-62DA-4F1D-AA73-57F8D91184A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "testDownloadIsPDF()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AC4E219-62DA-4F1D-AA73-57F8D91184A9 - b332130c5218efde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testDownloadIsOnLocalDisk() throws -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "8AC4E219-62DA-4F1D-AA73-57F8D91184A9 - 48155ac353b217b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testDownloadIsPDF() throws -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F28CA631-6CF1-48C2-8CEF-9B7C6425454C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "testGoogleSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F28CA631-6CF1-48C2-8CEF-9B7C6425454C - 5ebd1c8b1b85fdfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;GoogleBooks.BookResults, GoogleBooks.DataResultError&gt;) -&gt; () in GoogleBooksTests.GoogleBooksTests.testGoogleSearchFails() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "F28CA631-6CF1-48C2-8CEF-9B7C6425454C - a84d06e0aa549e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearch() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A087F1E8-3354-4A3D-B180-30BFB43C07B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "testGoogleSearchFails()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A087F1E8-3354-4A3D-B180-30BFB43C07B4 - 157b094a6b579793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testPerformanceExample() throws -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "A087F1E8-3354-4A3D-B180-30BFB43C07B4 - 9444fa77e7b3e507"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearchFails() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A231E19-5B8B-44A7-B0ED-8B84CDF27951"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "testGoogleSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A231E19-5B8B-44A7-B0ED-8B84CDF27951 - 977d943add5d52e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;GoogleBooks.BookResults, GoogleBooks.DataResultError&gt;) -&gt; () in GoogleBooksTests.GoogleBooksTests.testGoogleSearch() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "8A231E19-5B8B-44A7-B0ED-8B84CDF27951 - a84d06e0aa54852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearch() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F86C3F7F-26C5-474C-BE51-B0CB51D62230"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "testGoogleSearchBadJson()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FCFCCA4-3710-4216-B2A7-DED074C9501B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "testGoogleSearchBadJson()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4115BA4-1318-451E-9917-5F85EEEC3B2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooksTests/GoogleBooksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "testGoogleSearchBadJson()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4115BA4-1318-451E-9917-5F85EEEC3B2F - b1593a6503099159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearchBadJson() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "F4115BA4-1318-451E-9917-5F85EEEC3B2F - b1593a6503099159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearchBadJson() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "F4115BA4-1318-451E-9917-5F85EEEC3B2F - b1593a6503099159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleBooksTests.GoogleBooksTests.testGoogleSearchBadJson() -&gt; ()"
+                  moduleName = "GoogleBooksTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoinnorris/Kortext/GoogleBooks/GoogleBooksTests/GoogleBooksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03D415E8-4B9C-4313-A899-12CF66AE499A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/Views/SearchableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "091D8CED-23C4-4BF2-B185-A9153B6C3597"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/Networking/GoogleApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getNextPage(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81A92C7D-B773-4B2C-9D33-4040AAD253CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/Networking/GoogleApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getBooks(forSearch:page:number:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70744F0A-71D5-423E-8D41-69EB5F066FA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleBooks/Networking/GoogleApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "buildURL(from:searchTerm:page:resultNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
