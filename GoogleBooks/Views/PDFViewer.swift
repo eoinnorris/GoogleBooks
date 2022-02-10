@@ -8,9 +8,10 @@
 import SwiftUI
 
 
-struct Viewer: View {
+/// View that downloads and displays the locally downloaded PDF
+struct PDFViewer: View {
     
-    @State var file:DownloadedFile
+    @State var file:DownloadedFile =  DownloadedFile(localURL: nil, type: .PDF)
     @State private var isDownloading = false
     
     func startDownload() {
@@ -30,9 +31,11 @@ struct Viewer: View {
             if isDownloading == true {
                 ProgressView("Downloading…")
             }
+#if os(macOS)
             Button("Open in Preview") {
                 NSWorkspace.shared.open(file.localURL!)
             }.padding()
+#endif
             
             if  file.localURL != nil {
                 PDFViewUI(url: file.localURL).frame(maxWidth: .infinity, maxHeight: .infinity)

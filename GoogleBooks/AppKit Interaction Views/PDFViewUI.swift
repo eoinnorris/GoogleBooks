@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 import PDFKit
 
+
+/// A wrapper around the PDFKit PDFView to alliw it work in SwiftUI in macOS
 struct PDFViewUI : NSViewRepresentable {
  
     typealias NSViewType = PDFView

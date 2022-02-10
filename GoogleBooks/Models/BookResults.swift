@@ -1,10 +1,12 @@
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
 //
-//   let book = try? newJSONDecoder().decode(Book.self, from: jsonData)
+//  BookModels.swift
+//  GoogleBooks
+//
+//  Created by Eoin Norris on 09/02/2022. Generated from Swify-Json
+//
+
 
 import Foundation
-
 
 // MARK: - Book
 class BookResults: Codable, ObservableObject {

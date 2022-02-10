@@ -115,8 +115,7 @@ class GoogleBooksTests: XCTestCase {
     }
     
     func testGoogleSearch() {
-        let proxyNetwork = BadJsonNetworkAPI()
-        let api = GoogleApi(proxyNetwork)
+        let api = GoogleApi(network)
         let exp = expectation(description: "testGoogleSearch")
         var results:BookResults?  = nil
         
@@ -181,15 +180,7 @@ class GoogleBooksTests: XCTestCase {
         } else {
             XCTAssert(false)
         }
-//        XCTAssert(resultError! == DataResultError.jsonDecodeFailed)
     }
 
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
 
 }

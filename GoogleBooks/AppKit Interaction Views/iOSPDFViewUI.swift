@@ -8,6 +8,8 @@
 import PDFKit
 import SwiftUI
 
+
+/// A  wrapper around the PDFKit PDFView to alliw it work in SwiftUI in iOS
 struct PDFViewUI : UIViewRepresentable {
 
     var url: URL?

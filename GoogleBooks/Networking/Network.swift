@@ -25,12 +25,12 @@ protocol DownloadManager {
     func downLoadFile(forURL url:URL,completion:  @escaping DownloadFileBlock)
 }
 
+// mark: Download Manager - the extension to download the PDFs
 extension Network: DownloadManager{
     
     enum ValidExtension:String {
         case pdf
     }
-    
     
     /// Renames and moves the downloaded file to  a PDF for sanity
     /// - Parameters:
@@ -44,7 +44,6 @@ extension Network: DownloadManager{
             try FileManager.default.moveItem(at: url, to: newURL)
             return newURL
         }
-        
         return url
     }
     
@@ -72,7 +71,6 @@ extension Network: DownloadManager{
             }
         }
         task.resume()
-        
     }
 }
 
@@ -81,21 +79,20 @@ protocol NetworkProtocol {
                     completion:  @escaping DataResultBlock)
 }
 
+/// General Network handling classes.
 struct Network:NetworkProtocol  {
-
-    
     static let shared = Network()
-
     
     enum APIMethod:String{
         case get = "GET"
         case post = "POST"
+        case head = "HEAD"
     }
     
-    /// Description
+    /// Simple wrapper ofr a GET networking call. 
     /// - Parameters:
     ///   - url: the  url to get the data from
-    ///   - completion: the result closue which will return the data for this. 
+    ///   - completion: the result closue which will return the data or an erro
     func getData(fromURL url:URL,
                     completion:  @escaping DataResultBlock) {
         var request = URLRequest(url: url)
@@ -103,14 +100,16 @@ struct Network:NetworkProtocol  {
         request.httpMethod = APIMethod.get.rawValue
         let task = URLSession.shared.dataTask(with: request) {
             data, response, error in
-            DispatchQueue.main.async {
+            if let error = error {
+                completion(.failure(.downloadFailed(error)))
+            } else {
                 if let jsonData = data {
                     completion(.success(jsonData))
                     // use result
                 } else {
                     completion(.failure(.noData))
-            }
-        }
+             }
+          }
         }
         task.resume()
     }
